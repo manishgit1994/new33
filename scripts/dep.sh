@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 sudo apt install apache2 -y
-rn /var/www/indexx.html
+rm /var/www/html/index.html
 service apache2 start
